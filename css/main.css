@@ -10,6 +10,13 @@ img {
   display: block;
 }
 
+.image-full {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+
 /* Typography */
 
 h1,
@@ -84,6 +91,10 @@ strong {
   font-size: 1rem;
 }
 
+.about h3 {
+  color: #1792d2;
+}
+
 /* Layout */
 
 header {
@@ -91,6 +102,13 @@ header {
   text-align: center;
   padding: 2em 0;
   margin-bottom: 3em;
+}
+
+footer {
+  background-color: #143774;
+  color: white;
+  text-align: center;
+  padding: 3em 0;
 }
 
 .container {
@@ -103,6 +121,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.about {
+  margin-bottom: 3em;
 }
 
 /* Navigation */
@@ -228,10 +250,6 @@ nav a:focus {
 
   .article-image {
     order: -2;
-  }
-
-  main:nth-child(2) img {
-    object-position: left;
   }
 
   .article-info {

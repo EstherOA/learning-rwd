@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Blog | Home</title>
+    <title>Responsive Blog | Recent Posts</title>
     <link rel="stylesheet" href="../../css/main.css" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@700,400,300&display=swap"
@@ -22,9 +22,9 @@
         </div>
         <nav>
           <ul>
-            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="home.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
-            <li><a href="recent-posts.html">Recent Posts</a></li>
+            <li><a href="recent-posts.html" class="active">Recent Posts</a></li>
           </ul>
         </nav>
       </div>
@@ -32,21 +32,26 @@
     <!-- End of header -->
     <div class="container container-flex">
       <main role="main">
-        <article class="article-featured">
-          <h2 class="article-title">Finding simplicity in life</h2>
-          <img
-            src="../../images/home-featured.jpeg"
-            alt="simple white desk with plant and lamp on the far right side"
-            class="article-image"
-          />
-          <p class="article-info">July 23, 2020 | 3 comments</p>
-          <p class="article-body">
-            <strong>Lorem ipsum dolor sit</strong>, amet consectetur adipisicing
-            elit. <a href="#">Nesciunt quis quaerat</a> animi culpa consequuntur
-            et repudiandae enim nulla eos aut! Maiores recusandae doloremque
-            iusto cupiditate, eligendi molestiae est quasi eaque!
-          </p>
-          <a href="" class="article-read-more">CONTINUE READING</a>
+        <article class="article-recent">
+          <div class="article-recent-main">
+            <h2 class="article-title">Finding simplicity in life</h2>
+            <p class="article-body">
+              <strong>Lorem ipsum dolor sit</strong>, amet consectetur
+              adipisicing elit. <a href="#">Nesciunt quis quaerat</a> animi
+              culpa consequuntur et repudiandae enim nulla eos aut! Maiores
+              recusandae doloremque iusto cupiditate, eligendi molestiae est
+              quasi eaque!
+            </p>
+            <a href="" class="article-read-more">CONTINUE READING</a>
+          </div>
+          <div class="article-recent-secondary">
+            <img
+              src="../../images/home-featured.jpeg"
+              alt="simple white desk with plant and lamp on the far right side"
+              class="article-image"
+            />
+            <p class="article-info">July 23, 2020 | 3 comments</p>
+          </div>
         </article>
 
         <article class="article-recent">
