@@ -9,7 +9,7 @@ demo for 3 page website: https://warm-fjord-39845.herokuapp.com/
 
 <h3>First Mini Project</h3>
 <h5>Single page article (src/main)</h5>
-![alt text](https://github.com/EstherOA/learning-rwd/blob/master/images/main.jpeg?raw=true)
+![alt text](https://github.com/EstherOA/learning-rwd/blob/master/images/main.png?raw=true)
 <br/>
 
 <h3>Second Mini Project</h3>
