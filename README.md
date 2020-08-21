@@ -3,3 +3,4 @@ Collection of 4 mini-projects (main, responsive nav, responsive buttons and simp
 
 demo for 3 page website: https://warm-fjord-39845.herokuapp.com/
 
+![alt text](https://github.com/EstherOA/learning-rwd/blob/master/images/elephants.jpg?raw=true)
