@@ -1,1 +1,1 @@
-<?php include_once("/src/responsive-blog/home.html") ?>
+<?php include_once("src/responsive-blog/home.html"); ?>
